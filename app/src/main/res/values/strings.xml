@@ -1,0 +1,33 @@
+<resources>
+
+    <!--  STRING APP NAME -->
+    <string name="app_name">Danus Tel-U</string>
+
+    <!--  STRING LIST AND GRID -->
+    <string name="list">Tampilan List</string>
+    <string name="grid">Tampilan Grid</string>
+
+    <!--  STRING TAMBAH DAN UBAH DATA DANUS  -->
+    <string name="tambah_danus">Tambah Data Danus</string>
+    <string name="edit_danus">Ubah Data Danus</string>
+    <string name="hapus_danus">Hapus Data Danus</string>
+    <string name="list_kosong">Belum Ada Data Danus</string>
+    <string name="invalid">Tidak Boleh Kosong!</string>
+    <string name="data_invalid">Masukan Tidak Valid!</string>
+
+    <!--  STRING DISPLAY ALERT DIALOG -->
+    <string name="pesan_hapus">Hapus Danus Ini?</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="tombol_batal">Batal</string>
+
+    <!--  STRING CONTENT TEXT-FIELDS -->
+    <string name="nama_toko">Nama Toko</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="harga_barang">Harga Barang</string>
+
+    <!--  STRING ICONS -->
+    <string name="kembali">Kembali</string>
+    <string name="simpan">Simpan</string>
+    <string name="lainnya">Lainnya</string>
+
+</resources>
