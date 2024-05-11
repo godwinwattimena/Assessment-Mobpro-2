@@ -11,7 +11,7 @@
     <string name="tambah_danus">Tambah Data Danus</string>
     <string name="edit_danus">Ubah Data Danus</string>
     <string name="hapus_danus">Hapus Data Danus</string>
-    <string name="list_kosong">Belum Ada Data Danus</string>
+    <string name="list_kosong">Belum Ada Data</string>
     <string name="invalid">Tidak Boleh Kosong!</string>
     <string name="data_invalid">Masukan Tidak Valid!</string>
 

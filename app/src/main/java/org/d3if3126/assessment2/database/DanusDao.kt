@@ -15,7 +15,7 @@ interface DanusDao {
     @Update
     suspend fun update(danus: Danus)
 
-    @Query("SELECT * FROM danus ORDER BY jenisBarang, hargaBarang, namaBarang, namaToko ASC")
+    @Query("SELECT * FROM danus ORDER BY tanggal, jenisBarang, hargaBarang, namaBarang, namaToko ASC")
     fun getDanus(): Flow<List<Danus>>
 
     @Query("SELECT * FROM danus WHERE id = :id")

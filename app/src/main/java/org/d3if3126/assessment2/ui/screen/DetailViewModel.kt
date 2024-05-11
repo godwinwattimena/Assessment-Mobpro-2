@@ -6,15 +6,21 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.d3if3126.assessment2.database.DanusDao
 import org.d3if3126.assessment2.model.Danus
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 
 class DetailViewModel (private val dao: DanusDao) : ViewModel() {
+
+    private val formatter = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.US)
 
     fun insert(namaToko: String, namaBarang: String, hargaBarang: String, jenisBarang: String) {
         val danus = Danus(
             namaToko = namaToko,
             namaBarang = namaBarang,
             hargaBarang = hargaBarang,
-            jenisBarang = jenisBarang
+            jenisBarang = jenisBarang,
+            tanggal = formatter.format(Date())
         )
 
         viewModelScope.launch(Dispatchers.IO) {
@@ -32,7 +38,8 @@ class DetailViewModel (private val dao: DanusDao) : ViewModel() {
             namaToko = namaToko,
             namaBarang = namaBarang,
             hargaBarang = hargaBarang,
-            jenisBarang = jenisBarang
+            jenisBarang = jenisBarang,
+            tanggal = formatter.format(Date())
         )
 
         viewModelScope.launch(Dispatchers.IO) {

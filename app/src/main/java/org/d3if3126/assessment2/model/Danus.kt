@@ -10,5 +10,6 @@ data class Danus(
     val namaToko: String,
     val namaBarang: String,
     val hargaBarang: String,
-    val jenisBarang: String
+    val jenisBarang: String,
+    val tanggal: String
 )

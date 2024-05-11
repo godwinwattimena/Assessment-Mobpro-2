@@ -15,4 +15,32 @@ class MainViewModel(dao: DanusDao) : ViewModel() {
         started = SharingStarted.WhileSubscribed(5000L),
         initialValue = emptyList()
     )
+//    val data = getDataDummy()
+//
+//    private fun getDataDummy(): List<Danus> {
+//        val data = mutableListOf<Danus>()
+//
+//        data.add(
+//            Danus(
+//                1,
+//                "Victory'S",
+//                "Pop Ice",
+//                "15.000",
+//                "Minuman",
+//                "01/03/2024"
+//            )
+//        )
+//        data.add(
+//            Danus(
+//                2,
+//                "Victory'S",
+//                "Nasi Goreng",
+//                "12.000",
+//                "Makanan",
+//                "01/03/2024"
+//            )
+//        )
+//        return data
+//    }
+
 }
